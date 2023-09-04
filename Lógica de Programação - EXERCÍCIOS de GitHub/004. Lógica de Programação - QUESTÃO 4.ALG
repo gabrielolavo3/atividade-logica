@@ -39,7 +39,7 @@ soma2 <- frutaMO + frutaMA
 
 limpatela
 
-// Tela de Rsultados Inicial
+// Tela de Resultados Inicial
 
 escreval ("HORTIFRUTI FRUITS! - NOTA FISCAL")
 escreval ("")
@@ -49,7 +49,7 @@ escreval ("")
 escreval ("KG's TOTAIS:", kgt)
 escreval ("")
 
-// Tela de Rsultados Final
+// Tela de Resultados Final
 
 // Mensagem de desconto caso a compra seja igual ou maior a R$ 25.00, ou se tiver a patir de 8 KG's de frutas
 
