@@ -1,37 +1,37 @@
 Algoritmo "DESCONTO POR KGS EM HORTIFRUTI"
-// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Disciplina  :  [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor   : Carlos Anderson Santos de Jesus
-// Descrição   : Aplica desconto em frutas por meio da quantidade total! (função)
+// DescriÃ§Ã£o   : Aplica desconto em frutas por meio da quantidade total! (funÃ§Ã£o)
 // Autor(a)    : Gabriel S. Olavo
 // Turma       : B88435 (Vespertino) - Desenvolvimento de Sistema
 // Data atual  : 30/08/2023
 
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 quant1, quant2, maca, morango, soma1, kgt : real
 frutaMA, frutaMO, soma2 : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
-// Coletando informações
+// Coletando informaÃ§Ãµes
 
-escreval ("HORTIFRUTI FRUITS! ")
+escreval ("HORTIFRUTI FRUITS!")
 escreval ("")
 escreva ("Informe a quantidade (em Kg) de morangos que deseja: ")
 leia (quant1)
-escreva ("Informe a quantidade (em Kg) de maças que deseja: ")
+escreva ("Informe a quantidade (em Kg) de maÃ§as que deseja: ")
 leia (quant2)
 
-// Cálculo para obter o desconto final na compra
+// CÃ¡lculo para obter o desconto final na compra
 
-morango <- quant1 * 2.20 // Cálculo total de morango
-maca <- quant2 * 1.50 // Cálculo total de maças
-soma1 <- morango + maca // Soma total do preço de morango e maça
-kgt <- quant1 + quant2 // Soma total de maçã ou morango
+morango <- quant1 * 2.20 // CÃ¡lculo total de morango
+maca <- quant2 * 1.50 // CÃ¡lculo total de maÃ§as
+soma1 <- morango + maca // Soma total do preÃ§o de morango e maÃ§a
+kgt <- quant1 + quant2 // Soma total de maÃ§Ã£ ou morango
 
-// Cálculo da compra sem o desconto inicial de valores
+// CÃ¡lculo da compra sem o desconto inicial de valores
 
 frutaMO <- quant1 * 2.50
 frutaMA <- quant2 * 1.80
@@ -44,7 +44,7 @@ limpatela
 escreval ("HORTIFRUTI FRUITS! - NOTA FISCAL")
 escreval ("")
 escreval ("Quantidade (em Kg) de morangos:", quant1)
-escreval ("Quantidade (em Kg) de maças:", quant2)
+escreval ("Quantidade (em Kg) de maÃ§as:", quant2)
 escreval ("")
 escreval ("KG's TOTAIS:", kgt)
 escreval ("")
@@ -56,11 +56,11 @@ escreval ("")
 se (soma1 >= 25) ou (kgt >= 8) entao
    escreval ("NF - TOTAL DA COMPRA.")
    escreval ("")
-   escreval ("Preço unitário do morango: R$ 2.20")
-   escreval ("Preço unitário da maça: R$ 1.50")
+   escreval ("PreÃ§o unitÃ¡rio do morango: R$ 2.20")
+   escreval ("PreÃ§o unitÃ¡rio da maÃ§a: R$ 1.50")
    escreval ("")
    escreval ("Valor total (em R$) de morango: R$", morango)
-   escreval ("Valor total (em R$) de maça: R$", maca)
+   escreval ("Valor total (em R$) de maÃ§a: R$", maca)
    escreval ("")
    escreval ("VALOR TOTAL DA COMPRA: R$", soma1)
    escreval ("")
@@ -72,11 +72,11 @@ fimse
 se (kgt = 6) ou (kgt = 7) entao
    escreval ("NF - TOTAL DA COMPRA.")
    escreval ("")
-   escreval ("Preço unitário do morango: R$ 2.20")
-   escreval ("Preço unitário da maça: R$ 1.50")
+   escreval ("PreÃ§o unitÃ¡rio do morango: R$ 2.20")
+   escreval ("PreÃ§o unitÃ¡rio da maÃ§a: R$ 1.50")
    escreval ("")
    escreval ("Valor total (em R$) de morango: R$", morango)
-   escreval ("Valor total (em R$) de maça: R$", maca)
+   escreval ("Valor total (em R$) de maÃ§a: R$", maca)
    escreval ("")
    escreval ("VALOR TOTAL DA COMPRA: R$", soma1)
 fimse
@@ -86,11 +86,11 @@ fimse
 se (kgt <= 5) entao
    escreval ("NF - TOTAL DA COMPRA.")
    escreval ("")
-   escreval ("Preço unitário do morango: R$ 2.50")
-   escreval ("Preço unitário da maça: R$ 1.80")
+   escreval ("PreÃ§o unitÃ¡rio do morango: R$ 2.50")
+   escreval ("PreÃ§o unitÃ¡rio da maÃ§a: R$ 1.80")
    escreval ("")
    escreval ("Valor total (em R$) do morango: R$", frutaMO)
-   escreval ("Valor total (em R$) de maça: R$", frutaMA)
+   escreval ("Valor total (em R$) de maÃ§a: R$", frutaMA)
    escreval ("")
    escreval ("VALOR TOTAL DA COMPRA: R$", soma2)
 fimse
