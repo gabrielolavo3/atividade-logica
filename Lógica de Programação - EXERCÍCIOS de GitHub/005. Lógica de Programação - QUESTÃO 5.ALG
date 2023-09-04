@@ -1,30 +1,33 @@
-Algoritmo "OPERA«’ES B¡SICAS COM 2 VALORES"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+Algoritmo "OPERA√á√ïES B√ÅSICAS COM 2 VALORES"
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Carlos Anderson Santos de Jesus
-// DescriÁ„o   : Aplica uma operaÁ„o matem·tica em duas vari·veis! (funÁ„o)
+// Descri√ß√£o   : Aplica uma opera√ß√£o matem√°tica em duas vari√°veis! (fun√ß√£o)
 // Autor(a)    : Gabriel S. Olavo
 // Turma       : B88435 (Vespertino) - Desenvolvimento de Sistema
 // Data atual  : 30/08/2023
 
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
 
 a, b : inteiro
+operacao : caracter
 soma, subtracao, multiplicacao, divisao : real
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
 
 // Coletando valores
 
-escreval ("OBTENDO N⁄MEROS")
+escreval ("OBTENDO N√öMEROS")
 escreval ("")
 escreva ("Informe o primeiro valor: ")
 leia (a)
 escreva ("Informe o segundo valor: ")
 leia (b)
+escreva ("Informe a opera√ß√£o b√°sica a ser aplicada: ")
+leia (operacao)
 
-// OperaÁÙes com os valores
+// Opera√ß√¥es com os valores
 
 soma <- a + b
 subtracao <- a - b
@@ -35,14 +38,28 @@ limpatela
 
 // Tela de Resultados
 
-escreval ("C¡LCULO B¡SICAS COM OS VALORES")
+escreval ("C√ÅLCULO B√ÅSICAS COM OS VALORES")
 escreval ("")
-escreval ("1∫ valor informado: ", a)
-escreval ("2∫ valor informado: ", b)
+escreval ("1¬∫ valor informado: ", a)
+escreval ("2¬∫ valor informado: ", b)
 escreval ("")
-escreval ("SOMA DOS VALORES:", soma)
-escreval ("SUBTRA«√O DOS VALORES:", subtracao)
-escreval ("MULTIPLICA«√O DOS VALORES:", multiplicacao)
-escreval ("DIVIS√O DOS VALORES:", divisao)
+
+// Validando a opera√ß√£o solicitada pelo usu√°rio
+
+se (operacao = "Soma") entao
+escreval ("RESULTADO DA SOMA DOS VALORES:", soma)
+fimse
+
+se (operacao = "Subtra√ß√£o") entao
+escreval ("RESULTADO DA SUBTRA√á√ÉO DOS VALORES:", subtracao)
+fimse
+
+se (operacao = "Multiplica√ß√£o") entao
+escreval ("RESULTADO DA MULTIPLICA√á√ÉO DOS VALORES:", multiplicacao)
+fimse
+
+se (operacao = "Divis√£o") entao
+escreval ("RESULTADO DA DIVIS√ÉO DOS VALORES:", divisao)
+fimse
 
 Fimalgoritmo
