@@ -1,22 +1,22 @@
-Algoritmo "SOMA OU MULTIPLICA«√O DE VALORES"
-// Disciplina  :  [Linguagem e LÛgica de ProgramaÁ„o]
+Algoritmo "SOMA OU MULTIPLICA√á√ÉO DE VALORES"
+// Disciplina  :  [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Carlos Anderson Santos de Jesus
-// DescriÁ„o   : Soma dois valores se forem iguais, ou multiplica se forem diferentes! (funÁ„o)
+// Descri√ß√£o   : Soma dois valores se forem iguais, ou multiplica se forem diferentes! (fun√ß√£o)
 // Autor(a)    : Gabriel S. Olavo
 // Turma       : B88435 (Vespertino) - Desenvolvimento de Sistema
 // Data atual  : 30/08/2023
 
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis
+// Se√ß√£o de Declara√ß√µes das vari√°veis
 
 a, b, soma, multiplicacao, c1, c2 : inteiro
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
 
 // Solicitando dados
 
-escreval ("INSER«√O DE INFORMA«’ES")
+escreval ("INSER√á√ÉO DE INFORMA√á√ïES")
 escreval ("")
 escreva ("Digite um valor: ")
 leia (a)
@@ -39,7 +39,7 @@ se (a = b) entao
    escreval ("Primeiro valor informado: ", a)
    escreval ("Segundo valor informado: ", b)
    escreval ("")
-   escreval ("CONCLUS√O: Valores Iguais! ObtÈm-se a soma:", c1)
+   escreval ("CONCLUS√ÉO: Valores Iguais! Obt√©m-se a soma:", c1)
 
 senao
    limpatela
@@ -48,7 +48,7 @@ senao
    escreval ("Primeiro valor informado: ", a)
    escreval ("Segundo valor informado: ", b)
    escreval ("")
-   escreval ("CONCLUS√O: Valores Diferentes! ObtÈm-se a multiplicaÁao:", c2)
+   escreval ("CONCLUS√ÉO: Valores Diferentes! Obt√©m-se a multiplica√ß√£o:", c2)
 
 fimse
 
