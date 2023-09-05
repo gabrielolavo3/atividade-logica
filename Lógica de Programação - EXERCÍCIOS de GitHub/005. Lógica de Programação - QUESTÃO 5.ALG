@@ -38,7 +38,7 @@ limpatela
 
 // Tela de Resultados
 
-escreval ("CÁLCULO BÁSICAS COM OS VALORES")
+escreval ("CÁLCULO BÁSICO COM OS VALORES")
 escreval ("")
 escreval ("1º valor informado: ", a)
 escreval ("2º valor informado: ", b)
