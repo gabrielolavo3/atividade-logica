@@ -27,7 +27,7 @@ leia (b)
 escreva ("Informe a operação básica a ser aplicada: ")
 leia (operacao)
 
-// Operaçôes com os valores
+// Operações com os valores
 
 soma <- a + b
 subtracao <- a - b
